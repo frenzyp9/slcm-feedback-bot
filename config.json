@@ -1,0 +1,30 @@
+{
+  "_comment": "MUJ SLCM Feedback Bot — edit default_rating and comments before running",
+
+  "headless": false,
+  "confirm_before_submit": true,
+  "delay_between_actions_ms": [700, 1400],
+
+  "default_rating": 4,
+
+  "overrides": {
+    "_comment": "Substring of subject/faculty name (case-insensitive) → specific rating. Remove examples below.",
+    "Example Subject": 5,
+    "Dr. Example Faculty": 3
+  },
+
+  "default_comment": "Good experience overall.",
+
+  "comments": {
+    "_comment": "Substring of subject/faculty name → specific comment text.",
+    "Example Subject": "Excellent teaching and well-structured course content."
+  },
+
+  "login_wait_timeout_seconds": 300,
+
+  "max_forms": 50,
+
+  "screenshot_on_submit": true,
+
+  "logs_dir": "logs"
+}
